@@ -1,1 +1,80 @@
+<!--
+(c) 2014-2015, Daniel Clark
+Navigating Knowledge
+dan.clark@navigatingknowledge.com
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <title>Navigating Knowledge</title>
+  <meta content="height=device-height, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  <link href="css/home.css" rel="stylesheet" />
+  <link href="http://www.navigatingknowledge.com/images/NK Logos.001.png" rel="apple-touch-icon" />
+  <link href="http://www.navigatingknowledge.com/images/NK76.png" rel="apple-touch-icon" sizes="76x76" />
+  <link href="http://www.navigatingknowledge.com/images/NK120.png" rel="apple-touch-icon" sizes="120x120" />
+  <link href="http://www.navigatingknowledge.com/images/NK152.png" rel="apple-touch-icon" sizes="152x152" />
+  <link href="http://www.navigatingknowledge.com/images/NK180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="http://www.navigatingknowledge.com/images/NK Logos.001.png" rel="icon" sizes="192x192" />
+  <link href="http://www.navigatingknowledge.com/images/NK Logos.001.png" rel="icon" sizes="128x128" />
+  <link href="http://www.navigatingknowledge.com/NK Logos.001.png" rel="apple-touch-startup-image" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="jquery/jquery.bxslider.min.js"></script>
+  <link href="jquery/jquery.bxslider.css" rel="stylesheet" />
+  <script src="js/home.js"></script>
+  <script src="js/analytics.js"></script>
+</head>
 
+<body>
+<div class="div_slider">
+  <ul class="bxslider">
+    <li><img src="images/001.jpg"></img></li>
+    <li><img src="images/002.jpg"></img></li>
+    <li><img width="0%" /></li>
+  </ul>
+</div>
+
+<div class="home_img_ribbon">
+  <h3>educators, students, advisors, administrators</h3>
+  <h4>sign-in below to access the Navigating Knowledge Map for free.</h4>
+  <img class="home_img" src="images/logo.png"></img>
+    <div class="div_one">
+      <p>Please enter your email address to sign-in<br>to your personalized knowledge map.</p>
+      <form action="php/home_MySQL.php" method="post">
+        <input class="table" id="email" name="email" placeholder="email" required="" tabindex="1" type="email" /> 
+        <input id="btn" tabindex="2" type="submit" value="Sign In" />
+      </form>
+    </div>
+  <p class="footer_style">(I recommend using <b> Safari or Chrome.</b>)<br>First time users! You may be asked to enter your email twice.</p>
+</div>
+
+<div class="about_section">
+  <h2><br><b>What&#39;s this all about?</b></h2>
+  <h3>Let me tell you. You&#39;re going to like this.</h3>
+  <h4>I believe Navigating Knowledge can help make education more efficient and equitable.</h4>
+</div>
+
+<div class="about_note">
+  <p>I have two long-term personal goals: to efficiently, and equitably, improve community <b> health </b> and <b>education</b>. Navigating Knowledge moves me closer to achieve the latter.<br><br> At the heart of Navigating Knowledge is the Navigating Knowledge Map. The map complements all existing educational materials on the market by organizing and visualizing content in a standardized viewing field. It is designed to utilize the area of our brain responsible for spacial relation, navigation, and memory. <br><br> I was also inspired by the hierarchy (or taxonomy) that American educational psychologist Benjamin Bloom advocated for in the 1950s. Building off of fundamental principles proposed by Bloom, the Navigating Knowledge Map clearly allows for educators to distinguish the levels of learning through visual layers on the map. <br> <br> I think you will find the value of Navigating Knowledge. I feel this tool will improve educational attainment for all humans. I want you to use Navigating Knowledge.</p>
+  <p>Sincerely,<br><br> Dan Clark, <em>founder and director of Navigating Knowledge</em></p>
+  <p><br>P.S. Navigating Knowledge is maintained by myself and a small team of educators and education advocates. Funding comes from thousands of volunteered work-hours and your generous donations. Thank you for supporting the NK Map as this technology is shared with the world while we work towards nonprofit status!</p>
+  <div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="5NCSZMA42RWDL">
+      <input type="image" src="http://www.navigatingknowledge.com/images/NK Logos.002.jpg" border="0" width="100%" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+</div>
+
+<div class="footer">
+  <table>
+    <td><a href="https://www.facebook.com/NavigatingKnowledge" ><img src="images/facebook_grey.png"></img></a></td>
+    <td><a href="https://www.linkedin.com/in/DanClarkChicago"><img src="images/linkedin_grey.png"></img></a></td>	
+  </table>
+  <p>Navigating Knowledge.<br>Copyright &copy; 2014-2015 Daniel Clark. All rights reserved.</p>
+</div>
+
+</body>
+</html>
